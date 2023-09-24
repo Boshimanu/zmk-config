@@ -11,9 +11,10 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
+# shield: lily58_right
 ---
 include:
   - board: nrfmicro_13
-    shield: lily58_left
+    shield: liv_left
   - board: nrfmicro_13
-    shield: lily58_right
+    shield: liv_right
