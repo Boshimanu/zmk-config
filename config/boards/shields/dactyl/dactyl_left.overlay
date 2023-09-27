@@ -2,7 +2,7 @@
 
 #include "dactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
 
-&kscan0 {
+&kscan {
     col-gpios
         = <&pro_micro 13 GPIO_ACTIVE_HIGH> // col1 in the schematic
         , <&pro_micro 12 GPIO_ACTIVE_HIGH> // col2 in the schematic
