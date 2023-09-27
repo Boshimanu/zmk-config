@@ -13,12 +13,10 @@
 # 
 # shield: lily58_right
 ---
-# include:
-#   - board: nrfmicro_13
-#     shield: lily58_left
-#   - board: nrfmicro_13
-#     sshield: lily58_right
-
-
-board: [ "nrfmicro_13" ]
-shield: [ "dactyl_left", "dactyl_right" ]
+include:
+  - board: nrfmicro_13
+    shield: dactyl_left
+  - board: nrfmicro_13
+    shield: dactyl_right
+  - board: nrfmicro_13
+    shield: settings_reset
