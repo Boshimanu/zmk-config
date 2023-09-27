@@ -18,5 +18,3 @@ include:
     shield: dactyl_left
   - board: nrfmicro_13
     shield: dactyl_right
-  - board: nrfmicro_13
-    shield: settings_reset
