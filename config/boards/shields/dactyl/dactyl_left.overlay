@@ -27,4 +27,4 @@
             , <&pro_micro 6 GPIO_ACTIVE_HIGH> // col6 in the schematic
             ;
     };
-}
+};
