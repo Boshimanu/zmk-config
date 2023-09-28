@@ -16,7 +16,7 @@
 
 ---
 include:
-  - board: nrf52_adafruit_feather
+  - board: nrfmicro_11
     shield: dactyl_left
-  - board: adafruit_feather_nrf52840 
+  - board: nrfmicro_11
     shield: dactyl_right
