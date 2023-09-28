@@ -2,13 +2,17 @@
 
 #include "dactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
 
+&default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
+    col-offset = <6>;
+};
+
 &kscan {
     col-gpios
-        = <&gpio0 7 GPIO_ACTIVE_HIGH> // col6 in the schematic
+        = <&gpio0 7 GPIO_ACTIVE_HIGH>  // col6 in the schematic
         , <&gpio0 26 GPIO_ACTIVE_HIGH> // col5 in the schematic
         , <&gpio0 27 GPIO_ACTIVE_HIGH> // col4 in the schematic
         , <&gpio0 11 GPIO_ACTIVE_HIGH> // col3 in the schematic
-        , <&gpio0 12 GPIO_ACTIVE_HIGH>  // col2 in the schematic
-        , <&gpio1 13 GPIO_ACTIVE_HIGH>  // col1 in the schematic
+        , <&gpio0 12 GPIO_ACTIVE_HIGH> // col2 in the schematic
+        , <&gpio1 13 GPIO_ACTIVE_HIGH> // col1 in the schematic
         ;
 };
