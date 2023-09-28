@@ -16,7 +16,7 @@
 
 ---
 include:
-  - board: nrfmicro_11
+  - board: nrfmicro_13
     shield: dactyl_left
-  - board: nrfmicro_11
+  - board: nrfmicro_13
     shield: dactyl_right

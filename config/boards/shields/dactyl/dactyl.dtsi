@@ -47,4 +47,3 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                                 RC(4,7) 
 //             , <&pro_micro_a 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row D from the schematic file
 //             , <&pro_micro_a 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row E from the schematic file
 //             ;
-//babaaaaaasssssssaazzzzzxxxxZXCZXCZXCZXCZXCZXCZXCZXCZXC
