@@ -12,9 +12,11 @@
 #     shield: reviung41
 # 
 # shield: lily58_right
+# - board: adafruit_feather_nrf52840
+
 ---
 include:
-  - board: adafruit_feather_nrf52840
+  - board: nrfmicro_13
     shield: dactyl_left
-  - board: adafruit_feather_nrf52840
+  - board: nrfmicro_13
     shield: dactyl_right
