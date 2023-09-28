@@ -14,7 +14,7 @@
 # shield: lily58_right
 ---
 include:
-  - board: nrfmicro_13
+  - board: adafruit_feather_nrf52840
     shield: dactyl_left
-  - board: nrfmicro_13
+  - board: adafruit_feather_nrf52840
     shield: dactyl_right
