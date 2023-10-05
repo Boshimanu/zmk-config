@@ -29,15 +29,15 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                                 RC(4,7) 
         label = "KSCAN";
         diode-direction = "col2row";
         row-gpios
-            = <&gpio1 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row A from the schematic file
-            , <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row B from the schematic file
-            , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row C from the schematic file
-            , <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row D from the schematic file
-            , <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row E from the schematic file
+            = <&pro_micro 9 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
+            , <&pro_micro 8 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
+            , <&pro_micro 7 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
+            , <&pro_micro 6 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
+            , <&pro_micro 5 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
             ;
+
     };
 };
-
 
 
 //COL2ROW means the black mark on your diode is facing to the rows, and between the switch and the rows.
@@ -46,4 +46,10 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                                 RC(4,7) 
 //             , <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row C from the schematic file
 //             , <&pro_micro_a 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row D from the schematic file
 //             , <&pro_micro_a 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row E from the schematic file
+//             ;
+//  = <&gpio1 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row A from the schematic file
+//             , <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row B from the schematic file
+//             , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row C from the schematic file
+//             , <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row D from the schematic file
+//             , <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // Row E from the schematic file
 //             ;
